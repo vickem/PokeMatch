@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: pokemon;
+    src: url(Fonts/pokemon.ttf);
+} 
+
+.container {
+    font-family: pokemon;
+    letter-spacing: 0.25em;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1.25em;
+}
+
+.title {
+    color: orange;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
